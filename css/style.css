@@ -1,0 +1,714 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container2 {
+    width: 95%;
+    margin: auto;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  start header */
+.header {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* start left */
+.header .nav .logo-title {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    top: 12px;
+    left: 12px;
+
+}
+
+.header .nav .logo-title a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* start right */
+
+.header .nav .right ul {
+    text-align: right;
+    padding: 20px;
+    margin: 0;
+}
+
+.header .nav .right ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.header .nav .right li a {
+    padding: 30px;
+}
+
+.header .nav .right a {
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.header .nav .right ul li a:hover {
+    background-color: rgb(247, 142, 207);
+}
+
+/* start cover */
+.cover {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    filter: grayscale(30%);
+    margin-bottom: 5%;
+}
+
+.cover .cont-text {
+    padding-top: 200px;
+}
+
+.cover .cont-text h3 {
+    font-size: 55px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.cover .cont-text p {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.cover .cont-text button {
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.cover .cont-text button:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+/*  start follow */
+.cover .follow {
+    margin-top: 14%;
+}
+
+.cover .follow a {
+    padding-right: 3px;
+    color: rgb(159, 159, 159);
+    font-size: 18px;
+    opacity: 70%;
+
+}
+
+.cover .follow a:hover {
+    opacity: 100%;
+}
+
+.cover .follow .bi.bi-facebook:hover {
+    color: rgb(52, 109, 241);
+}
+
+.cover .follow .bi.bi-messenger:hover {
+    color: rgb(52, 109, 241);
+}
+
+.cover .follow .bi.bi-instagram:hover {
+    color: rgb(245, 14, 118);
+}
+
+.cover .follow .bi.bi-twitter:hover {
+    color: rgb(52, 109, 241);
+}
+
+.cover .follow .bi.bi-whatsapp:hover {
+    color: rgb(1, 247, 30);
+}
+
+.cover .follow .bi.bi-google:hover {
+    color: rgb(203, 42, 42);
+}
+
+/* start about */
+.about {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about .title-text {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about .row2 .cont {
+    margin-top: 5%;
+}
+
+.about .cont h3,
+h6,
+p {
+    text-align: center;
+}
+
+.about .row2 .cont h3 {
+    font-size: 75px;
+}
+
+
+.about .row2 .cont {
+    margin-right: 11.5px;
+}
+
+/* design */
+.design {
+    background-color: rgb(248, 248, 248);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+
+}
+
+.design .left button {
+    border: 0;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.design .left button:hover {
+    background-color: rgb(193, 193, 193);
+    color: black;
+
+}
+
+.design .left i {
+    margin-right: 5px;
+}
+
+.design .left p {
+    text-align: left;
+}
+
+/* start team */
+
+.team {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.team .team-title {
+    padding-bottom: 3%;
+
+}
+
+.team .team-title h3,
+p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.team .card {
+    box-shadow: 0px 0px 3px rgb(167, 167, 167);
+    margin-right: 10px;
+}
+
+.team .card p {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.team .card button {
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.team .card button:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+.team .card a {
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+/* start scor */
+
+.scor {
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+    background-color: rgb(115, 114, 114);
+    color: white;
+}
+
+.scor .scor1 h3,
+p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* start work */
+.work {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.work .work-title h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3%;
+
+}
+
+.work .cont-img1 {
+    text-align: center;
+}
+
+.work .cont-img1 img {
+    width: 24%;
+    margin-right: 10px;
+    /* border-radius: 10px; */
+    margin-bottom: 10px;
+    transition: 0.5s;
+
+}
+
+.work .cont-img1 img:hover {
+    opacity: 50%;
+}
+
+.work .cont-img2 {
+    text-align: center;
+}
+
+.work .cont-img2 img {
+    width: 24%;
+    margin-right: 10px;
+    /* border-radius: 10px; */
+    transition: 0.5s;
+
+}
+
+.work .cont-img2 img:hover {
+    opacity: 50%;
+}
+
+
+/* start skills */
+
+.skills {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f1f1f1;
+
+}
+
+.skills .card-title {
+    margin-right: 15%;
+}
+
+.skills .card-title h3 {
+    text-transform: uppercase;
+
+}
+
+.skills .card-title p {
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.skills .card-pro i {
+    margin-right: 20px;
+}
+
+.skills .card-pro .text-p {
+    background-color: rgb(218, 218, 218);
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.skills .card-pro .text-p .bg-90 {
+    background-color: rgb(142, 144, 143);
+    width: 90%;
+
+}
+
+.skills .card-pro .text-p .bg-85 {
+    background-color: rgb(142, 144, 143);
+    width: 85%;
+
+}
+
+.skills .card-pro .text-p .bg-75 {
+    background-color: rgb(142, 144, 143);
+    width: 75%;
+
+}
+
+/* start pricing */
+
+.pricing {
+    background-color: rgb(133, 133, 133);
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.pricing .pricing-title {
+    padding-top: 3%;
+    padding-bottom: 7%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+/* pricing1 */
+.pricing .cont-pric1 {
+    /* border: 1px solid; */
+    box-shadow: 0px 0px 4px rgb(61, 61, 61);
+    background-color: white;
+    margin-right: 20px;
+    transition: 0.6s;
+    padding: 0;
+}
+
+.pricing .cont-pric1:hover {
+    box-shadow: 0px 0px 15px rgb(44, 44, 44);
+}
+
+.pricing .cont-pric1 h3 {
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.pricing .cont-pric1 .sty {
+    text-align: center;
+}
+
+.pricing .cont-pric1 h4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.pricing .cont-pric1 p {
+    padding: 10px;
+
+    text-align: center;
+}
+
+.pricing .cont-pric1 .sign {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.pricing .cont-pric1 .sign a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.pricing .cont-pric1 .sign a:hover {
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+
+
+
+
+/* pricing2 */
+.pricing .cont-pric2 {
+    /* border: 1px solid; */
+    box-shadow: 0px 0px 3px rgb(121, 121, 121);
+    background-color: white;
+    margin-right: 20px;
+    transition: 0.6s;
+    transform: translate(0px, -30px);
+    padding: 0;
+}
+
+.pricing .cont-pric2:hover {
+    box-shadow: 0px 0px 15px rgb(99, 99, 99);
+}
+
+.pricing .cont-pric2 h3 {
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-transform: uppercase;
+}
+
+.pricing .cont-pric2 .sty {
+    text-align: center;
+}
+
+.pricing .cont-pric2 h4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.pricing .cont-pric2 p {
+    padding: 10px;
+    text-align: center;
+}
+
+.pricing .cont-pric2 .sign {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.pricing .cont-pric2 .sign a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.pricing .cont-pric2 .sign a:hover {
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+
+
+
+/* pricing3 */
+.pricing .cont-pric3 {
+    /* border: 1px solid; */
+    box-shadow: 0px 0px 3px rgb(121, 121, 121);
+    background-color: white;
+    margin-right: 20px;
+    transition: 0.6s;
+    padding: 0;
+}
+
+.pricing .cont-pric3:hover {
+    box-shadow: 0px 0px 15px rgb(68, 68, 68);
+}
+
+.pricing .cont-pric3 h3 {
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.pricing .cont-pric3 .sty {
+    text-align: center;
+}
+
+.pricing .cont-pric3 h4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.pricing .cont-pric3 p {
+    padding: 10px;
+    text-align: center;
+}
+
+.pricing .cont-pric3 .sign {
+    text-align: center;
+    padding: 30px;
+}
+
+.pricing .cont-pric3 .sign a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.pricing .cont-pric3 .sign a:hover {
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+/* start contact */
+.contact {
+    background-color: rgb(241, 238, 234);
+    padding-bottom: 5%;
+
+}
+
+.contact .contact-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.contact .contact-address {
+    padding-bottom: 2%;
+    width: 98%;
+    margin: auto;
+}
+
+.contact .contact-address p {
+    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.contact .contact-address i {
+    margin-right: 20px;
+}
+
+.form input,
+textarea {
+    display: block;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.form input:hover {
+    box-shadow: 0px 3px 5px rgb(103, 103, 103);
+}
+
+.form textarea:hover {
+    box-shadow: 0px 3px 5px rgb(103, 103, 103);
+}
+
+.form button {
+    padding: 10px;
+    width: 15%;
+    margin-left: 15px;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.form button:hover {
+    background-color: rgb(211, 210, 210);
+    color: black;
+}
+
+/* start map */
+.cont-map {
+    margin-bottom: 10%;
+}
+
+.cont-map .map img {
+    filter: grayscale(65%);
+    width: 100%;
+}
+
+
+/* start footer */
+
+.footer {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+    background-color: black;
+}
+
+.footer .footer-follow {
+    font-size: 20px;
+}
+
+.footer .footer-follow a {
+    text-decoration: none;
+    color: white;
+    opacity: 70%;
+    margin-left: 5px;
+    transition: all 1s;
+}
+
+.footer .footer-follow a:hover {
+    opacity: 100%;
+}
+
+.footer .footer-follow a .bi.bi-facebook:hover {
+    color: rgb(4, 107, 250);
+}
+
+.footer .footer-follow a .bi.bi-messenger:hover {
+    color: rgb(4, 107, 250);
+}
+
+.footer .footer-follow a .bi.bi-instagram:hover {
+    color: rgb(245, 14, 118);
+}
+
+.footer .footer-follow a .bi.bi-twitter:hover {
+    color: rgb(52, 109, 241);
+}
+
+.footer .footer-follow a .bi.bi-whatsapp:hover {
+    color: rgb(1, 247, 30);
+}
+
+.footer .footer-follow a .bi.bi-google:hover {
+    color: rgb(203, 42, 42);
+}
+
+.footer .title-footer {
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: white;
+    opacity: 70%;
+}
+
+/* eng project */
